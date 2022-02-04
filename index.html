@@ -6,11 +6,9 @@
   </head>
   <body>
     <header class='page-header'>
+      <img class='logo-header' src="" alt='Логотип Седона'>
       <nav class='navigation'>
         <ul class='navigation-list'>
-          <li class=navigation-item>
-            <img class='logo-header' src="" alt='Логотип Седона'>
-          </li>
           <li class= navigation-item>
             <a class='navigation-link' href="main.html">Главная</a>
           </li>
@@ -101,15 +99,17 @@
           и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В седоне</button>
         </section>
-    <section class='subscription'>
+   <section class='subscription'>
       <h2>Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама,
       честное бойскаутское!</p>
-      <label for="newsletter-email">Email</label>
-      <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
+      <form>
+        <label for="newsletter-email">Email</label>
+        <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
         required>
-      <button class="button newsletter-button" type="submit">Подписаться</button>
-    </section>
+        <button class="button newsletter-button" type="submit">Подписаться</button>
+      </form>
+   </section>
     </main>
 <footer class='page-footer'>
 <ul class="footer-social-list">
@@ -130,7 +130,11 @@
   </li>
 </ul>
 <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-<img class='logo-header' src="https://htmlacademy.ru/" alt='Логотип HTMLAcademy'>
+<a class="button" href="https://htmlacademy.ru/">
+  <img class="logo" src="https://htmlacademy.ru/" alt="Логотип HTMLAcadem">
+</a>
+
+
 </footer>
   </body>
 </html>
